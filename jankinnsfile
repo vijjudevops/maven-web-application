@@ -1,6 +1,6 @@
-node('walmartnode'){
+node('Walmartnode'){
 
-    try {
+    try{
     echo "The branch name is:${env.BRANCH_NAME}"
     echo "The build number is: ${BUILD_NUMBER}"
     echo "The job name is: ${JOB_NAME}"
