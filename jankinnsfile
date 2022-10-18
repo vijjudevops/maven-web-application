@@ -1,4 +1,4 @@
-node('Walmartnode'){
+node('nodes'){
 
     try{
     echo "The branch name is:${env.BRANCH_NAME}"
